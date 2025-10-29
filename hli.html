@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hli_Sham Portfolio</title> 
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <header class="header">
+      <nav> 
+        <div class="logo">
+        <a href="#"> <img src="hlireal.png" alt="HS"></a>
+        </div>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbox">
+        <i class='bx bx-menu-alt-left' id="menu"></i>
+        </label> 
+        <div class="nav-links">
+          <a href="#home" class="active">Home</a> 
+          <a href="#about">About</a> 
+          <a href="#project">Projects</a> 
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="toggle-btn" id="mode-toggle">🌙</button>
+      </nav> 
+    </header> 
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hello I'm <span id="typing-text"></span><span class="cursor">|</span></h1>
+        <p> I'm a Frontend developer passionate about coding,creativity,and building beautiful digital experiences and A<span class="span1"> Computer Science</span> Bachelor degree student </h3>and also <span class="span1"> Certified in fundamental programming(udacity)</span> </p> 
+        <div class="socials">
+          <a href="mailto:hlinashambel@gmail.com" target="_blanks"><i class='bx bxs-envelope'></i></a>
+          <a href="https://t.me/hanani_3" target="_blank"><i class='bx bxl-telegram'></i></a>
+          <a href="https://www.instagram.com/hli_sham/" target="_blank"><i class='bx bxl-instagram'></i></a>
+          <a href="https://www.linkedin.com/in/hlina-shambel-245097395/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        </div>
+      </div>
+      <img src="hlii.jpg" alt="Profile Image"> 
+    </section> 
+
+    <section id="about" class="about">
+      <h2>About<span> Me</span> </h2>
+      <p>I am a computer science as a dedicated computer Science Student, I'm interested about software development, algorithms and mathematics and built beautiful and that solve real world problems to do I'm currently apply what I learn and prepare for a professional career in technology </p>
+      <div class="info-cards">
+        <div class="card">
+          <h3>Languages</h3>
+          <i class='bx bx-code-alt'></i>
+          <ul>
+          <li> <i class='bx bxl-html5'></i>
+          <i class='bx bxs-file-js' ></i>
+          <i class='bx bxl-java' ></i>
+          <i class='bx bxl-c-plus-plus' ></i>
+          <i class='bx bxl-css3' ></i></li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Education</h3>
+          <p class="emoji">👩🏽‍🎓</p>
+          <ul>
+          <li>Computer Science Student</li>
+          <li>Certified in udacity</li>
+          </ul>
+          <button><a href="Screenshot (6).png" target="_blank">view my resume</a></button>
+        </div>
+        <div class="card">
+          <h3>My works</h3>
+          <i class='bx bx-folder' ></i>
+          <ul>
+          <li>Simple Game quiz</li>
+          <li>Expense Tracker</li>
+          <li>Registeration</li>
+          </ul>
+          <button><a href="project1.html">Click Me</a></button>
+        </div>
+      </div>
+    </section>
+    <section class="project" id="project">
+      <h2 class="heading">My <span class="span1">Projects</span></h2>
+      <div class="project-container">
+        <div class="project-box">
+          <img src="HM.jpg" alt="image">
+          <div class="project-layer">
+            <h4>hotel Management System</h4>
+            <p>Developed a java-based hotel Management System implementing code for room booking,guest management,and payment processing</p>
+            <a href="https://github.com/hlinashambel/HotelManagemnetSystem/tree/main/project"    target="_blank"> <i class='bx bxl-github'></i></a> 
+          </div>
+        </div>
+        <div class="project-box">
+          <img src="stock.jpg" alt="image">
+          <div class="project-layer">
+          <h4>Stock Management System</h4>
+          <p>built a c++ Stock Management System,implementing code to efficently manage products,inventory,and stock operations</p>
+          <a href="https://github.com/hlinashambel/supermarket-managemnet-System/blob/main/README.md" target="_blank"> <i class='bx bxl-github'></i></a> 
+          </div>
+        </div>     
+        <div class="project-box">
+          <img src="RMS.jpg" alt="image">
+          <div class="project-layer">
+            <h4>RealEstate property listing Management System</h4>
+            <p>Created a C++ RealEstate Management System,implementing code to handle property listings,user management,and search functionality efficiently</p>
+            <a href="https://github.com/hlinashambel/RealEstateManagemnetSystem/tree/main/RealEstateManagemnetSystem"> <i class='bx bxl-github'></i></a>              
+          </div>
+        </div>  
+        <div class="project-box">
+          <img src="other.jpg" alt="image">
+          <div class="project-layer">
+            <h4>Hotel Management System</h4>
+            <p>Created a database hotel Management System,implementing code to handle the granted and envoke,user management,and search functionality efficiently</p>
+            <a href="https://github.com/hlinashambel/Hotel-Managemnet-System2/tree/main"> <i class='bx bxl-github'></i></a>                
+          </div>          
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <div>
+        <form action="https://api.web3forms.com/submit" method="POST" id="myForm" novalidate>
+          <input type="hidden" name="access_key" value="0359531f-2377-4c77-992d-860963ebcae5">
+            <div class="input-box">
+            <input type="text" name="full_name" id="full_name" placeholder="Please enter your full name" required>
+            <span id="nameError"></span>
+            <input type="email" name="email" id="email" placeholder="Please enter your email address " required>
+            <span id="emailError"></span>
+          <input type="tel" name="phone" id="phone" placeholder="Phone Number(optional)">
+          <span id="phoneError"></span>
+        </div>
+        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+        <span id="sucess"></span>
+        <div class="button-box">
+            <input type="submit" value="Send message" class="btn">
+            <input type="reset" value="Reset" class="btn">
+        </div>
+       </form>
+      </div>
+    </section>
+    <footer>Copyright &copy;<span id="year"></span> by Hli Sham | all Rights Reserved !!!</footer>
+  </body>
+  <script src="script.js"></script>
+</html>
